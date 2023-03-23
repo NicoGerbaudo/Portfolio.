@@ -837,10 +837,30 @@ hr {
     .home-content h1 {
         font-size: 3rem;
     }
+
+    .portfolio img {
+        width: 30vw;
+    }
 }
 
+@media (max-width: 540px) {
+    .footer-iconTop a {
+    padding: .2rem;
+    }
 
-@media (max-width: 390px) {
+    .footer-iconTop a i {
+   font-size: 1.2rem;
+    }
+    .footer-text p {
+        font-size: .5rem;
+    }
+
+    .portfolio img {
+        width: 30vw;
+    }
+}
+
+@media (max-width: 435px) {
     .home-content h1 {
         font-size: 2rem;
     }
