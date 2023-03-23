@@ -914,7 +914,7 @@ hr {
     }
 }
 
-@media (max-height: 717px) {
+@media (max-height: 742px) {
     .home-img {
         width: 150px;
         height: 150px;
