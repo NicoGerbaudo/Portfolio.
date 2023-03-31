@@ -669,6 +669,7 @@ hr {
 
     .glowing-circle .image img {
         height: 100%;
+        object-fit: cover;
     }
     
     .about-content {
@@ -702,11 +703,15 @@ hr {
     .home-sci {
         position: absolute;
         display: flex;
-        bottom: 8.7rem;
+        bottom: 10%;
     }
 
     .home-sci a {
         margin-right: 1rem;
+    }
+
+    .glowing-circle .image img {
+        object-fit: cover;
     }
 }
 
@@ -718,6 +723,10 @@ hr {
     }
     .contact form .input-box  input {
         width: 100%;
+    }
+
+    .glowing-circle .image img {
+        object-fit: cover;
     }
 }
 
@@ -742,7 +751,9 @@ hr {
        font-size: 1.5rem;
     }
 
-    
+    .glowing-circle .image img {
+        object-fit: cover;
+    }
 }
 
 @media (max-width: 866px) {
@@ -841,6 +852,10 @@ hr {
     .portfolio img {
         width: 30vw;
     }
+
+    .glowing-circle .image img {
+        object-fit: cover;
+    }
 }
 
 @media (max-width: 540px) {
@@ -857,6 +872,10 @@ hr {
 
     .portfolio img {
         width: 30vw;
+    }
+    
+    .glowing-circle .image img {
+        object-fit: cover;
     }
 }
 
@@ -912,22 +931,26 @@ hr {
     .footer-iconTop a i {
        font-size: 1.2rem;
     }
+
+    .glowing-circle .image img {
+        object-fit: cover;
+    }
 }
 
 @media (max-height: 742px) {
     .home-img {
-        width: 150px;
-        height: 150px;
+        width: 240px;
+        height: 240px;
     }
     
     .home-img .glowing-circle::after {
-        width: 140px;
-        height: 140px;
+        width: 230px;
+        height: 230px;
     }
     
     .glowing-circle .image {
-        width: 140px;
-        height: 140px;
+        width: 230px;
+        height: 230px;
     }
 
     .home {
@@ -938,5 +961,11 @@ hr {
     .home-content p {
         margin-bottom: 1rem;
     }
+
+    .glowing-circle .image img {
+        height: 100%;
+    }
 }
+
+
 
